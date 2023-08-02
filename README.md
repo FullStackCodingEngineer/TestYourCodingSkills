@@ -1,5 +1,7 @@
 ## Test Your Coding Skills
 
+## Link to Website https://fullstackcodingengineer.github.io/TestYourCodingSkills/
+
 ## This application allows the user to test their knowledge in HTML, CSS and JavaScript by taking a quick, fun and easy quiz.
 
 ![Image 1](https://github.com/FullStackCodingEngineer/TestYourCodingSkills/assets/134674607/7a9d9dcc-c331-4048-bf88-209c397ccbc1)
