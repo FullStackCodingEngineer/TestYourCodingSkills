@@ -1,0 +1,225 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(170, 170, 170);
+    display: flex;
+    justify-content: center;
+}
+
+
+#clock {
+    font-weight: 800;
+    font-size: 115%;
+}
+
+#ContinueButton {
+    font-size: 35px;
+    padding: 8px 26px 8px 26px;
+    border-radius: 18px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    /* border: none; */
+    cursor: pointer;
+}
+
+#ContinueButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#ContinueButton:active {
+    background-color: rgb(185, 185, 185);
+}
+
+
+
+#highscore {
+    font-size: 125%;
+    font-weight: 650;
+    position: absolute;
+    bottom: 25%;
+}
+
+#highscore input {
+    font-size: 25px;
+    padding: 4px 13px 4px 13px;
+    border-radius: 16px;
+    font-weight: 850;
+    border: none;
+}
+
+#highscore button {
+    font-size: 25px;
+    padding: 4px 13px 4px 13px;
+    border-radius: 16px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;    
+}
+
+#highscore button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#highscore button:active {
+    background-color: rgb(185, 185, 185);
+}
+
+#HighScoreButton {
+    font-size: 35px;
+    padding: 8px 26px 8px 26px;
+    border-radius: 18px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    /* position: absolute;
+    bottom: 15%; */
+}
+
+#HighScoreButton:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#HighScoreButton:active {
+    background-color: rgb(185, 185, 185);
+}
+
+highScorePage {
+    text-align: center !important;
+    position: absolute;
+    bottom: 5%;
+}
+
+#ListOfGameRules {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-weight: 1000;
+}
+
+main {
+    position: absolute;
+    top: 25%;
+    height: 350px;
+    width: 800px;
+    background-color: rgb(220, 220, 220);
+    border: 18px;
+    padding: 25px;
+    border-radius: 28px;
+    font-weight: 650;
+}
+
+#points {
+    font-weight: 800;
+    font-size: 125%;
+}
+
+#pointScore {
+    font-weight: 800;
+    font-size: 115%;
+}
+
+#points, #timer, #highscore p {
+    font-size: 155% !important;
+    font-family: 1000 !important;
+    font-weight: 800 !important;
+}
+
+
+#StartButton {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    /* See Top top: 21%; */
+    /* See Bottom top: 61%; */
+}
+
+#StartButton button {
+    font-size: 35px;
+    padding: 8px 26px 8px 26px;
+    border-radius: 18px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+}
+
+#StartButton button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#StartButton button:active {
+    background-color: rgb(185, 185, 185);
+}
+
+timeAndPoints {
+    text-align: center;
+    position: absolute;
+    top: 5%;
+}
+
+#timer {
+    font-weight: 800;
+    font-size: 125%;
+}
+
+.hide {
+    display: none;
+}
+
+#RulesOfQuizTitle {
+    font-weight: 1000;
+    font-size: 185%;
+    text-align: center;
+}
+
+#QuizQuestions {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+}
+
+#Question {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 100%;
+    margin: 25px;
+    font-size: 185%;
+    font-weight: 800;
+}
+
+#UserChoiceOptions button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    /* margin-left: 25px; */
+    font-size: 25px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 18px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+}
+
+#UserChoiceOptions  button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+#UserChoiceOptions button:active {
+    background-color: rgb(185, 185, 185);
+}
+

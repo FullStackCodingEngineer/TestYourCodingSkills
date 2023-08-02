@@ -1,0 +1,71 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background: rgb(170, 170, 170);
+    text-align: center;
+}
+
+body section h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 225%;
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+body section ul p {
+    text-align: center;
+    font-size: 185%;
+    font-weight: 800;
+    margin: 25px;
+}
+
+body section ul {
+    text-align: center;
+    font-size: 185%;
+    font-weight: 800;
+    margin: 50px;
+}
+
+ul {
+    flex-direction: column;
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+a {
+    text-align: center;
+}
+
+a button {
+    font-size: 35px;
+    padding: 8px 26px 8px 26px;
+    border-radius: 18px;
+    font-weight: 850;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+a button:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+a button:active {
+    background-color: rgb(185, 185, 185);
+}
+
+#highScoreListNames {
+    font-size: 75%;
+    margin-left: 4px;
+}

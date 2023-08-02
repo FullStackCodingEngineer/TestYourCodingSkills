@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Assets\CSS\style.css">
+</head>
+
+<body>
+
+    <a id="StartButton"><button>Continue to Quiz</button></a>
+
+    <timeAndPoints>
+        <p id="timer" class="hide">Time Left (Seconds)</p>
+        <p id="clock" class="hide">15</p>
+        <p id="points" class="hide">Points</p>
+        <p id="pointScore" class="hide">0</p>
+    </timeAndPoints>
+
+    <section id="QuizQuestions" class="hide">
+
+        <p id="Question"></p>
+
+        <div id="UserChoiceOptions"></div>
+
+    </section>
+
+    <main id="RulesAndInformation" class="hide">
+
+        <section id="GameTitile">
+
+            <h2 id="RulesOfQuizTitle">About the Quiz</h2S>
+
+        </section>
+
+        <section id="ListOfGameRules">
+
+            <p>This is an 60 second timed quiz</p>
+            <p>Correct answers will result in (+ 5 seconds) and (+ 100 points)</p>
+            <p>Incorrect answers will result in (- 5 seconds) and (- 25 points)</p>
+
+        </section>
+
+        <section id="Continue">
+
+            <button id="ContinueButton">Start Quiz</button>
+
+        </section>
+
+    </main>
+
+    <section class="hide" id="highscore">
+        <p>Save Score</p>
+        <input type="text" id="UserName">
+        <button id="submit">Submit</button>
+    </section>
+
+    <highScorePage>
+        <a href="HighScores HTML\highscores.html"><button id="HighScoreButton">HighScore Page</button></a>
+    </highScorePage>
+
+    <script src="Assets\JavaScript\main.js"></script>
+
+</body>
+
+
+
+</html>
